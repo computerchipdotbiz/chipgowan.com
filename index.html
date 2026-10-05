@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chip Gowan | Technologist, Systems & Builder</title>
+  <meta name="description" content="Personal hub for Chip Gowan — Technologist, Builder, and Systems Specialist based in Arlington & Mansfield, Texas.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chipgowan.com/">
+  <meta property="og:title" content="Chip Gowan | Personal Hub & Projects">
+  <meta property="og:description" content="Personal hub, projects, biometrics telemetry, finances, and journal by Chip Gowan.">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            bg: '#0a0f18',
+            surface: '#111827',
+            surfaceCard: '#162235',
+            surfaceBorder: '#23354e',
+            accentCyan: '#06b6d4',
+            accentBlue: '#3b82f6',
+            accentEmerald: '#10b981',
+            accentPurple: '#8b5cf6',
+            accentAmber: '#f59e0b',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+    
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #080d16;
+      color: #f1f5f9;
+      overflow-x: hidden;
+    }
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .glow-cyan {
+      box-shadow: 0 0 35px -8px rgba(6, 182, 212, 0.35);
+    }
+    .glow-card:hover {
+      box-shadow: 0 10px 40px -10px rgba(14, 165, 233, 0.25);
+      border-color: rgba(56, 189, 248, 0.45);
+      transform: translateY(-3px);
+    }
+    .radial-bg {
+      background: radial-gradient(circle at 50% 0%, rgba(14, 165, 233, 0.12) 0%, rgba(8, 13, 22, 0) 70%);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-cyan-500 selection:text-black">
+
+  <!-- Background decorative grid -->
+  <div class="fixed inset-0 radial-bg pointer-events-none -z-10"></div>
+  <div class="fixed inset-0 bg-[linear-gradient(to_right,#1f293710_1px,transparent_1px),linear-gradient(to_bottom,#1f293710_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none -z-10"></div>
+
+  <!-- Header Navigation -->
+  <header class="w-full max-w-6xl mx-auto px-6 py-8 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-3 group">
+      <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 to-blue-500 flex items-center justify-center font-bold text-white shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform">
+        CG
+      </div>
+      <div>
+        <span class="text-lg font-bold tracking-tight text-white block">Chip Gowan</span>
+        <span class="text-xs text-slate-400 mono">chipgowan.com</span>
+      </div>
+    </a>
+
+    <div class="flex items-center gap-3">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900/80 border border-slate-800 text-xs text-slate-300">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>Systems Online</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="w-full max-w-6xl mx-auto px-6 pt-6 pb-20 flex-1">
+    <div class="max-w-3xl mb-14">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-cyan-950/60 border border-cyan-800/60 text-cyan-400 text-xs font-medium mono mb-6">
+        <span>📍 Arlington & Mansfield, Texas</span>
+      </div>
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+        Building tools, optimizing systems & tracking the metrics that matter.
+      </h1>
+      <p class="text-lg text-slate-300 leading-relaxed font-normal mb-8">
+        Hey, I'm <strong class="text-white font-semibold">Chip Gowan</strong>. I run <a href="https://computerchip.biz" target="_blank" rel="noopener" class="text-cyan-400 hover:underline">Computer Chip</a> providing tech diagnostics and computer solutions in the DFW metroplex, and build automated hubs for biometrics, finances, and continuous personal learning.
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4 text-sm">
+        <a href="mailto:chip@computerchip.biz" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold transition-all shadow-lg shadow-cyan-500/20 active:scale-95">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          Get In Touch
+        </a>
+        <a href="https://github.com/computerchipdotbiz" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 font-medium transition-all active:scale-95">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <!-- Hub Cards Grid -->
+    <section>
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mono flex items-center gap-2">
+          <span>PORTAL & ECOSYSTEM</span>
+          <span class="w-12 h-px bg-slate-800"></span>
+        </h2>
+        <span class="text-xs text-slate-500 mono">chipgowan.com Network</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Card 1: Computer Chip -->
+        <a href="https://computerchip.biz" target="_blank" rel="noopener" class="group block p-7 rounded-2xl bg-gradient-to-b from-[#131d2e] to-[#0e1624] border border-slate-800 transition-all duration-200 glow-card relative overflow-hidden">
+          <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 group-hover:scale-110 transition-all text-cyan-400">
+            <svg class="w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 mono">Business & Tech</span>
+          </div>
+          <h3 class="text-xl font-bold text-white group-hover:text-cyan-300 transition-colors flex items-center gap-2 mb-2">
+            Computer Chip
+            <span class="text-slate-500 group-hover:translate-x-1 group-hover:text-cyan-400 transition-all">→</span>
+          </h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-5">
+            Flat-rate computer repair, hardware upgrades, malware disinfection, and IT infrastructure serving Arlington & Mansfield, Texas.
+          </p>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-800/80 text-xs mono text-slate-400">
+            <span class="text-cyan-400">computerchip.biz</span>
+            <span>$120 Flat Rate</span>
+          </div>
+        </a>
+
+        <!-- Card 2: Fitness & Biometrics -->
+        <a href="https://fit.chipgowan.com" class="group block p-7 rounded-2xl bg-gradient-to-b from-[#131d2e] to-[#0e1624] border border-slate-800 transition-all duration-200 glow-card relative overflow-hidden">
+          <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 group-hover:scale-110 transition-all text-emerald-400">
+            <svg class="w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+            </div>
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mono">Health Telemetry</span>
+          </div>
+          <h3 class="text-xl font-bold text-white group-hover:text-emerald-300 transition-colors flex items-center gap-2 mb-2">
+            Fitness Analytics
+            <span class="text-slate-500 group-hover:translate-x-1 group-hover:text-emerald-400 transition-all">→</span>
+          </h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-5">
+            Automated health metrics pipeline synthesizing Renpho smart scale body composition, resting heart rate, sleep quality, and Google Fit daily steps.
+          </p>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-800/80 text-xs mono text-slate-400">
+            <span class="text-emerald-400">fit.chipgowan.com</span>
+            <span>Live Health Telemetry</span>
+          </div>
+        </a>
+
+        <!-- Card 3: Personal Finance -->
+        <a href="https://money.chipgowan.com" class="group block p-7 rounded-2xl bg-gradient-to-b from-[#131d2e] to-[#0e1624] border border-slate-800 transition-all duration-200 glow-card relative overflow-hidden">
+          <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 group-hover:scale-110 transition-all text-blue-400">
+            <svg class="w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/20 mono">Cash Flow & Pulse</span>
+          </div>
+          <h3 class="text-xl font-bold text-white group-hover:text-blue-300 transition-colors flex items-center gap-2 mb-2">
+            Money Pulse
+            <span class="text-slate-500 group-hover:translate-x-1 group-hover:text-blue-400 transition-all">→</span>
+          </h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-5">
+            Direct financial tracking dashboard with automated SoFi sync, spending breakdown, monthly savings velocity, and liquidity insights.
+          </p>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-800/80 text-xs mono text-slate-400">
+            <span class="text-blue-400">money.chipgowan.com</span>
+            <span>Personal Ledger</span>
+          </div>
+        </a>
+
+        <!-- Card 4: Journal & Thoughts -->
+        <a href="https://gowan.one" class="group block p-7 rounded-2xl bg-gradient-to-b from-[#131d2e] to-[#0e1624] border border-slate-800 transition-all duration-200 glow-card relative overflow-hidden">
+          <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 group-hover:scale-110 transition-all text-purple-400">
+            <svg class="w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          </div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+            </div>
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-purple-500/10 text-purple-400 border border-purple-500/20 mono">Journal & Log</span>
+          </div>
+          <h3 class="text-xl font-bold text-white group-hover:text-purple-300 transition-colors flex items-center gap-2 mb-2">
+            Journal & Reflections
+            <span class="text-slate-500 group-hover:translate-x-1 group-hover:text-purple-400 transition-all">→</span>
+          </h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-5">
+            Daily logs, notes, cognitive reflections, and AI-assisted journaling hosted at gowan.one. (Aliases: journal.chipgowan.com).
+          </p>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-800/80 text-xs mono text-slate-400">
+            <span class="text-purple-400">gowan.one</span>
+            <span>Daily Journal</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- About & Philosophy Brief -->
+    <section class="mt-16 p-8 rounded-2xl bg-slate-900/40 border border-slate-800/70">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mono mb-2">Hardware & Systems</h4>
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Diagnosing, rebuilding, and optimizing workstations, networks, and storage infrastructure for performance and bulletproof reliability.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mono mb-2">Telemetry & Automation</h4>
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Constructing lightweight pipelines with Python, Cloudflare, and custom web dashboards to quantify health, finance, and habits.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mono mb-2">DFW Local Tech</h4>
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Providing transparent, flat-rate computer diagnostics and repair to clients across Mansfield, Arlington, and surrounding Texas communities.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full border-t border-slate-800/80 py-8 bg-[#060a12]/80">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 mono">
+      <div>
+        © <span id="year"></span> Chip Gowan • chipgowan.com
+      </div>
+      <div class="flex items-center gap-6">
+        <a href="https://computerchip.biz" target="_blank" rel="noopener" class="hover:text-cyan-400 transition-colors">Computer Chip</a>
+        <a href="https://fit.chipgowan.com" class="hover:text-emerald-400 transition-colors">Fit</a>
+        <a href="https://money.chipgowan.com" class="hover:text-blue-400 transition-colors">Money</a>
+        <a href="https://gowan.one" class="hover:text-purple-400 transition-colors">Journal</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
