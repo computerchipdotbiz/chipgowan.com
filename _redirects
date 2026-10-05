@@ -1,3 +1,8 @@
+# Subdomain redirect for journal.chipgowan.com -> gowan.one
+https://journal.chipgowan.com/* https://gowan.one/:splat 301
+https://journal.chipgowan.com/ https://gowan.one/ 301
+
+# Subpath convenience redirects
 /journal https://gowan.one 301
 /fit https://fit.chipgowan.com 302
 /money https://money.chipgowan.com 302
